@@ -1,0 +1,17 @@
+<table>
+  <th colspan="5" rowspan="2">SCHEDULE FOR AUGUST 2019 TO FEBRUARY 2019</th>
+  <tr>
+    <th><h3>Course Name</h3></th>
+    <th><h3>Age From</h3></th>
+    <th><h3>Age To</h3></th>
+    <th><h3>No of Hours</h3></th>
+    <th><h3>Fees</h3></th>
+  </tr>
+<tr *ngFor="let c of courses">
+  <td>{{c.crs_name}}</td>
+  <td>{{c.crs_age_from}}</td> 
+  <td>{{c.crs_age_to}}</td> 
+  <td>{{c.crs_no_hrs}}</td> 
+  <td>{{c.crs_fees}}</td>
+</tr>
+</table>
